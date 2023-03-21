@@ -14,7 +14,7 @@ const Songlist: FC<ISongListProps> = ({ setPlayer, player }) => {
     const [search, setSearch] = useState('');
 
     useEffect(() => {
-        axios.get('http://localhost:5124/api/Songs')
+        axios.get(import.meta.env.VITE_API_URL + '/api/Songs')
             .then(resp => setSongs(resp.data));
     }, []);
 
