@@ -2,7 +2,7 @@ import React, { FC, useEffect } from 'react';
 import { PlayerState } from '../Types/Types';
 import { Pause, PlayArrow, VolumeUp } from "@mui/icons-material";
 import SongProgress from './SongProgress';
-import './player.css';
+import './Player.css';
 
 interface IPlayerProps {
     player: PlayerState,
