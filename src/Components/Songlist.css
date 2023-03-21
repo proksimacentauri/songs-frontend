@@ -1,0 +1,8 @@
+.songlist-container {
+    overflow: scroll;
+    height: 75%;
+    width: 100%;
+    position: absolute;
+    overflow-y: scroll;
+    top: 70px;
+}
